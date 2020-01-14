@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    height: 100 vh;
+}
+
+ .calculator {
+    margin: auto;
+    border: 1px solids black;
+    background-color: black;
+    border-radius: 5px;
+} 
+
+.buttonContainer {
+    display: grid;
+    height: 60vh;
+    width: 50vw;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 2fr);
+    color: whitesmoke;
+    border: 1px solid chartreuse;
+    border-radius: 5px;
+}
+
+#display {
+    width: 48vw;
+    top: 10vh;
+    background-color: rgba(10, 10, 10);
+    color: white;
+    text-align: right;
+    height: 60px;
+    margin: 10vh auto 0 auto;
+    border: 1px solid chartreuse;
+    font-size: 30px;
+    border-radius: 5px;
+    padding-top: 2vw;
+    padding-right: 2vw;
+}
+
+.buttonpressed {
+    border: 1px solid chartreuse;
+    background-color: black;
+    border-radius: 5px;
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 24px;
+    margin: 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    border: 1px solid chartreuse;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#Backspace {
+    grid-column: 2 / span 2;
+}
+
+.number {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#Enter {
+    grid-column: 3/span 2;
+}
